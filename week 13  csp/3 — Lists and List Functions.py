@@ -6,20 +6,41 @@
 
 # Examples:
 
-my_list = ['apple', 'banana', 'cherry']
-print(my_list[0])         # apple
-print(my_list[1:])        # ['banana', 'cherry']
+# my_list = ['apple', 'banana', 'cherry']
+# print(my_list[0])         # apple
+# print(my_list[1:])        # ['banana', 'cherry']
 
-my_list.append('grape')
+# my_list.append('grape')
+# print(my_list)
+
+# my_list.pop(1)
+# print(my_list)
+
+# numbers = [3, 1, 4, 2]
+# numbers.sort()
+# print(numbers)
+
+my_list = [1, 2, 3, 4, 5]
+print(my_list)
+print(type(my_list))
+
+print(my_list[0])
+print(my_list[1:4])
+print(my_list[0:])
+
+my_list.append(6)
 print(my_list)
 
-my_list.pop(1)
+my_list.extend([7, 8, 9, 10, 11, 12, 13, 14])
 print(my_list)
 
-numbers = [3, 1, 4, 2]
-numbers.sort()
-print(numbers)
+my_list.extend(list(range(15, 501)))
+print(my_list)
 
+my_list.extend(list(range(501, 1101)))
+print(my_list)
+#Performance Task Answer:
+#Instead of creating seperate variables for each item, we can store them in a list this makes our job easier for when we need to manage multiple items
 
 # Practice Problems:
 
